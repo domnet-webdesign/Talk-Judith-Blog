@@ -1,0 +1,327 @@
+
+
+body {
+    overflow-x: hidden;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:link {
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+
+ul li .dropdown-menu  a{
+    color: black;
+    font-weight: bold;
+}
+
+
+.supreme{
+    width: 33%;
+}
+
+h4{
+    font-weight: 300;
+    font-family: serif;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.about1{
+    border: solid green;
+    justify-content: center;
+
+}
+/* end of menu bar */
+
+/* planning */
+.plan-quote{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.plan-quote{
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.autor{
+    padding-bottom: 2%;
+}
+.development-approach{
+    padding-top: 2%;
+}
+.planning{
+    padding-top: 2%;
+}
+.plan-1{
+    margin-bottom: 7px;
+}
+    /* end of planning */
+    
+
+    /* sections adjustment  */
+#approach{
+    margin-bottom: 3%;
+}
+#planning{
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+
+#analysis{
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+#solution{
+    margin-bottom: 3%;
+}
+
+#growth{
+    margin-bottom: 3%;
+}
+
+#best-form{
+    margin-bottom: 4%;
+}
+
+#about{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#about h4{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+/* end of sectionts adjustment */
+
+/* gallery */
+figure{
+    margin: 3px;
+    overflow: hidden;
+    position: relative;
+    background-color: green;
+    transition: background-color.5s;
+
+}
+.gallery{
+    display:grid;
+    grid-template-columns: repeat(4, auto);
+    margin-top: 1%;
+    margin-bottom: 3%;
+
+}
+
+.gallery .row div{
+    margin-bottom: 5px;
+}
+
+.img{
+    width:calc(100% + 60px);
+    
+    opacity: .7;
+    transform: translate3d(0, -20px, 0) scale(1.12);
+    transition: all .5s;
+}    
+
+figcaption {
+    position: absolute;
+    padding: 1em 2em;
+    top: 0;
+    color: #fff;
+    text-align: center;
+
+}
+.figcaptext {
+    font-weight: bold;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background:black;
+    display: inline-block;
+    padding: .5em .7em;
+}
+.additional{
+    font-family: sans-serif;
+    opacity: 0;
+    transform: scale(1.3);
+    transition: all;
+}
+.figcap-p{
+    margin-bottom: 20px;
+}
+.figcap-link{
+    display: inline-block;
+    background: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    /* padding: 5em; */
+    font-weight: bold;
+    color: black;
+    border-radius: 4px;
+}
+figure:hover{
+    background: black;
+}
+
+figure:first-child{
+    margin-left: 0;
+}
+
+figure:hover img {
+    transform: translate3d(0,0,0) scale(1);
+    opacity: .4;
+}
+figure:hover .additional{
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* end of gallery */
+
+/* form */
+
+
+.compulsory_fields{
+    font-weight: bold;
+}
+
+/* footer */
+
+.segment-one h4{
+    font-family:sans-serif;
+    color: black;
+    letter-spacing: 3px;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+.segment-two h5{
+    color: black;
+    padding-top: 15px;
+    font-family:sans-serif;
+    text-transform: uppercase;
+}
+.segment-two h5::before{
+    content: '|';
+    color: black;
+    padding-right: 10px;
+
+}
+
+.segment-two ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0  ;
+}
+.segment-two ul li{
+    border-bottom: 1px solid black;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.segment-two ul li a{
+    color: black;
+    text-decoration: none;
+}
+.segment-three h5 {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    padding-top: 15px;
+
+}
+.segment-three h5::before{
+    content: '|';
+    color: black;
+    padding-right: 10px;
+}
+.segment-four h5 {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+.segment-four h5::before{
+    content: '|';
+    color: black;
+    padding-right: 10px;
+}
+.segment-four form input [ type =submit ]{
+    background: black;
+    border: none;
+    padding: 3px 15px;
+    color: green;
+    text-transform: uppercase;
+
+}
+.segment-four{
+    padding-bottom: 45px;
+}
+.copyright{
+    padding-bottom: 10px;
+    color: darkgreen;
+}
+
+/* end of footer */
+
+/* go to top */ }
+
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 29px;
+    right: 15%;
+    z-index: 99;
+    font-size: 18px;
+    height: 50px;
+    width: 60px;
+    border: none;
+    outline: none;
+    background-color:darkgreen;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+
+/* end of go to top */
+
+/* responsive css */
+
+@media screen and (max-width:990px) {
+
+    .menubar .navbar-nav .nav-item .nav-link {
+        font-size: .9rem;
+    
+    }
+
+    .gallery figure img {
+        width: 100%;
+    }
+
+    .supreme{
+        width: 28%;
+    }
+
+    .carousel .carousel-inner div img{
+        height: 350;
+    }
+
+    
+}
+
+@media screen and (max-width: 774px) {
+    .menubar .navbar-nav .nav-item .nav-link {
+        font-size: .7rem;
+    }
+
+    .supreme{
+        width: 21%;
+    }
+
+    .carousel .carousel-inner div img{
+        height: 280;
+    }
+
+    
+}
