@@ -153,6 +153,10 @@ header {
     margin: 6rem 0 0 0;
 }
 
+#recents {
+    margin: 3rem 0 0 0;
+}
+
 .boxs {
     display: grid;
     grid-gap: 15px;
@@ -179,6 +183,11 @@ header {
     background-clip: border-box;
     border-color: #fff;
     border-radius: .25rem;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
 }
 
 .card-body a,
